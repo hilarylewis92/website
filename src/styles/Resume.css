@@ -1,0 +1,87 @@
+.Resume {
+    position: relative;
+    border-top: 1px solid #eee;
+}
+
+@media (min-width: 768px) {
+    .Resume {
+        width: calc(100% - 200px);
+        transform: translateX(200px);
+    }
+}
+
+.heading {
+    display: block;
+    text-align: center;
+    padding: 50px 0;
+    padding: 3.125rem 0;
+}
+
+.resume-heading {
+    padding: 5px 0;
+    padding: 0.3125rem 0;
+}
+
+@media (min-width: 544px) {
+    .resume-category {
+        margin: 0 0 50px;
+        margin: 0 0 3.125rem;
+    }
+}
+
+.resume-category {
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0 50px;
+    margin: 0.625rem 0 3.125rem;
+}
+
+.resume-role {
+    display: block;
+    font-family: "ff-tisa-web-pro", Palatino, " Palatino Linotype",
+        "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 17.5px;
+    line-height: 1.09375rem;
+    padding: 10px 0;
+    padding: 0.625rem 0;
+}
+
+small {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 21px;
+    line-height: 1.3125rem;
+}
+
+.resume-position {
+}
+
+@media (min-width: 993px) {
+    .resume-list {
+        padding: 0 0 0 10px;
+        display: inline-block;
+        list-style-type: none;
+    }
+}
+
+.resume-list li {
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 21px;
+    line-height: 1.3125rem;
+    padding: 5px 0;
+    padding: 0.3125rem 0;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.resume-list li:before {
+    position: relative;
+    left: -10px;
+    content: "\2022";
+    font-size: 18px;
+    font-size: 1.125rem;
+}
