@@ -6,7 +6,15 @@ class Sidebar extends Component {
         return (
             <div className="menu">
                 <div className="menu-content">
-                    <h3 className="menu-title">Resume</h3>
+                    <a className="menu-link">
+                        <h3 className="menu-title">Portfolio</h3>
+                    </a>
+                    <a className="menu-link">
+                        <h3 className="menu-title">Resume</h3>
+                    </a>
+                    <a className="menu-link">
+                        <h3 className="menu-title">Contact</h3>
+                    </a>
                 </div>
             </div>
         );
