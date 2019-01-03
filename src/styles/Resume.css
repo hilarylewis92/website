@@ -63,8 +63,10 @@ small {
     .resume-list {
         padding: 0 0 0 10px;
         display: inline-block;
-        list-style-type: none;
     }
+}
+.resume-list {
+    list-style-type: none;
 }
 
 .resume-list li {

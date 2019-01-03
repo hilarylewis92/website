@@ -27,13 +27,19 @@ class Resume extends Component {
                                         <span className="hidden-sm-down">
                                             •
                                         </span>{" "}
-                                        <a href="https://github.com/hilarylewis92">
+                                        <a
+                                            href="https://github.com/hilarylewis92"
+                                            target="_blank"
+                                        >
                                             GitHub
                                         </a>{" "}
                                         <span className="hidden-sm-down">
                                             •
                                         </span>{" "}
-                                        <a href="https://www.linkedin.com/in/hilarylewis92/">
+                                        <a
+                                            href="https://www.linkedin.com/in/hilarylewis92/"
+                                            target="_blank"
+                                        >
                                             LinkedIn
                                         </a>{" "}
                                     </h6>
