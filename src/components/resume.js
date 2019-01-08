@@ -53,7 +53,7 @@ class Resume extends Component {
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-category">
                                             <p>
-                                                As a creative frontend engineer,
+                                                As a creative Frontend Engineer,
                                                 I value using both my left and
                                                 right brain. My technical skills
                                                 help me solve challenging
@@ -82,19 +82,18 @@ class Resume extends Component {
                                                     </small>
                                                 </h4>
                                                 <p>
-                                                    Plan, build, and deliver a
-                                                    wide range of highly
-                                                    performant, scalable
-                                                    software systems written in
-                                                    numerous languages using a
-                                                    wide range of technologies.
+                                                    Responsible for planning,
+                                                    building, testing, and
+                                                    delivering a custom CMS web
+                                                    application marketed towards
+                                                    media buying solutions.
+                                                    Build highly performant,
+                                                    scalable software systems.
                                                     Lead a team of developers by
-                                                    communicating project goals,
-                                                    engineering numerous
-                                                    system’s architecture, and
-                                                    managing daily tasks using
-                                                    agile methodologies.
-                                                    Discuss, research, test, and
+                                                    managing individual project
+                                                    priorities, deadlines, and
+                                                    deliverables. Discuss,
+                                                    research, test, and
                                                     implement UX/UI best
                                                     practices.
                                                 </p>
@@ -107,18 +106,18 @@ class Resume extends Component {
                                                     </small>
                                                 </h4>
                                                 <p>
-                                                    Built numerous websites and
-                                                    web applications while
-                                                    communicating with designers
-                                                    on how to improve user
-                                                    experience and streamline
-                                                    internal workflow between
-                                                    departments. Collaborated
-                                                    with Chief Technology
-                                                    Officer on defining best
-                                                    practices and technologies
-                                                    to use within the
-                                                    development team.
+                                                    Built numerous client facing
+                                                    systems with a wide range of
+                                                    technologies. Communicated
+                                                    closely with designers and
+                                                    product owners on how to
+                                                    streamline internal workflow
+                                                    between departments.
+                                                    Collaborated with Chief
+                                                    Technology Officer on
+                                                    defining best practices and
+                                                    technologies to use within
+                                                    the development team.
                                                 </p>
                                             </div>
                                             <div className="resume-position">
@@ -134,7 +133,10 @@ class Resume extends Component {
                                                     development to lead a group
                                                     of developers in the
                                                     creation of a scheduling
-                                                    application.
+                                                    application. In charge of
+                                                    cross browser testing,
+                                                    fixing bugs, and styling
+                                                    multiple web applications.
                                                 </p>
                                             </div>
                                             <div className="resume-position">
@@ -147,8 +149,8 @@ class Resume extends Component {
                                                 <p>
                                                     Taught high school girls the
                                                     fundamentals of computer
-                                                    science including HTML, CSS,
-                                                    and JavaScript.
+                                                    science, HTML, CSS, and
+                                                    JavaScript.
                                                 </p>
                                             </div>
                                             <div className="resume-position">
@@ -180,6 +182,7 @@ class Resume extends Component {
                                                 <h4>
                                                     B.S Mathematics | Secondary
                                                     Math Education Concentration
+                                                    | 3.75
                                                     <small className="resume-role">
                                                         Baylor University
                                                     </small>
