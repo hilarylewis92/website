@@ -19,12 +19,14 @@ class Resume extends Component {
                                             hilarylewis92@gmail.com
                                         </a>{" "}
                                         <span className="hidden-sm-down">
+                                            {" "}
                                             •
                                         </span>{" "}
                                         <a href="tel:3039470034">
                                             303 947 0034
                                         </a>{" "}
                                         <span className="hidden-sm-down">
+                                            {" "}
                                             •
                                         </span>{" "}
                                         <a
@@ -34,6 +36,7 @@ class Resume extends Component {
                                             GitHub
                                         </a>{" "}
                                         <span className="hidden-sm-down">
+                                            {" "}
                                             •
                                         </span>{" "}
                                         <a
@@ -52,7 +55,7 @@ class Resume extends Component {
                                     </div>
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-category">
-                                            <p>
+                                            <p className="resume-intro">
                                                 As a creative Frontend Engineer,
                                                 I value using both my left and
                                                 right brain. My technical skills
@@ -97,6 +100,59 @@ class Resume extends Component {
                                                     implement UX/UI best
                                                     practices.
                                                 </p>
+                                                <h6 className="heading-subtitle tech-stack">
+                                                    React/Redux
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    NextJs
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    TypeScript/JavaScript
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Styled Components/MaterialUI
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Microservice Architecture
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Graphql/Apollo
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Project Management
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Unit testing
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    MongoDb
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    UX/UI
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Docker/Jenkins
+                                                </h6>
                                             </div>
                                             <div className="resume-position">
                                                 <h4>
@@ -119,6 +175,39 @@ class Resume extends Component {
                                                     technologies to use within
                                                     the development team.
                                                 </p>
+                                                <h6 className="heading-subtitle tech-stack">
+                                                    Wordpress/PHP
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    JavaScript
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Angular4/React/Redux
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    D3/Animations
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    SASS/CSS3
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    NodeJS
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Agile Methodologies
+                                                </h6>
                                             </div>
                                             <div className="resume-position">
                                                 <h4>
@@ -138,6 +227,29 @@ class Resume extends Component {
                                                     fixing bugs, and styling
                                                     multiple web applications.
                                                 </p>
+                                                <h6 className="heading-subtitle tech-stack">
+                                                    TDD
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    React/Redux
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Wordpress
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    SASS/CSS3/Bootstrap
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    JavaScript
+                                                </h6>
                                             </div>
                                             <div className="resume-position">
                                                 <h4>
@@ -151,7 +263,30 @@ class Resume extends Component {
                                                     fundamentals of computer
                                                     science, HTML, CSS, and
                                                     JavaScript.
-                                                </p>
+                                                </p>{" "}
+                                                <h6 className="heading-subtitle tech-stack">
+                                                    Teaching
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Javascript
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Css3
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    HTML5
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Computer Science
+                                                </h6>
                                             </div>
                                             <div className="resume-position">
                                                 <h4>
@@ -165,7 +300,25 @@ class Resume extends Component {
                                                     Designed and implemented the
                                                     math department’s curriculum
                                                     centered around technology.
-                                                </p>
+                                                </p>{" "}
+                                                <h6 className="heading-subtitle tech-stack">
+                                                    Teaching
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Mathematics
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Swift
+                                                    <span className="hidden-sm-down">
+                                                        {" "}
+                                                        •
+                                                    </span>{" "}
+                                                    Computer Science
+                                                </h6>
                                             </div>
                                         </div>
                                     </div>
@@ -267,6 +420,7 @@ class Resume extends Component {
                                                         <li>VSCode</li>
                                                         <li>Stack Overflow</li>
                                                         <li>Sketch</li>
+                                                        <li>Slack</li>
                                                     </ul>
                                                 </div>
                                             </div>
