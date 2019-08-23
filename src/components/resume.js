@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../styles/Resume.css";
 import "../styles/Grids.css";
+const workExperience = require("../resume.json");
 
 class Resume extends Component {
     render() {
@@ -76,250 +77,29 @@ class Resume extends Component {
                                     </div>
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-category">
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Lead Software Engineer
-                                                    <small className="resume-role">
-                                                        The Tiber Group | 2017 -
-                                                        current
-                                                    </small>
-                                                </h4>
-                                                <p>
-                                                    Responsible for planning,
-                                                    building, testing, and
-                                                    delivering a custom CMS web
-                                                    application marketed towards
-                                                    media buying solutions.
-                                                    Build highly performant,
-                                                    scalable software systems.
-                                                    Lead a team of developers by
-                                                    managing individual project
-                                                    priorities, deadlines, and
-                                                    deliverables. Discuss,
-                                                    research, test, and
-                                                    implement UX/UI best
-                                                    practices.
-                                                </p>
-                                                <h6 className="heading-subtitle tech-stack">
-                                                    React/Redux
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    NextJs
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    TypeScript/JavaScript
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Styled Components/MaterialUI
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Microservice Architecture
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Graphql/Apollo
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Project Management
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Unit testing
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    MongoDb
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    UX/UI
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Docker/Jenkins
-                                                </h6>
-                                            </div>
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Frontend Engineer
-                                                    <small className="resume-role">
-                                                        The Tiber Group | 2017
-                                                    </small>
-                                                </h4>
-                                                <p>
-                                                    Built numerous client facing
-                                                    systems with a wide range of
-                                                    technologies. Communicated
-                                                    closely with designers and
-                                                    product owners on how to
-                                                    streamline internal workflow
-                                                    between departments.
-                                                    Collaborated with Chief
-                                                    Technology Officer on
-                                                    defining best practices and
-                                                    technologies to use within
-                                                    the development team.
-                                                </p>
-                                                <h6 className="heading-subtitle tech-stack">
-                                                    Wordpress/PHP
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    JavaScript
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Angular4/React/Redux
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    D3/Animations
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    SASS/CSS3
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    NodeJS
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Agile Methodologies
-                                                </h6>
-                                            </div>
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Frontend Engineer
-                                                    <small className="resume-role">
-                                                        Fleetcreature |
-                                                        freelance | 2016 - 2017
-                                                    </small>
-                                                </h4>
-                                                <p>
-                                                    Utilized test driven
-                                                    development to lead a group
-                                                    of developers in the
-                                                    creation of a scheduling
-                                                    application. In charge of
-                                                    cross browser testing,
-                                                    fixing bugs, and styling
-                                                    multiple web applications.
-                                                </p>
-                                                <h6 className="heading-subtitle tech-stack">
-                                                    TDD
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    React/Redux
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Wordpress
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    SASS/CSS3/Bootstrap
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    JavaScript
-                                                </h6>
-                                            </div>
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Lead Instructor
-                                                    <small className="resume-role">
-                                                        Girls Who Code | 2016
-                                                    </small>
-                                                </h4>
-                                                <p>
-                                                    Taught high school girls the
-                                                    fundamentals of computer
-                                                    science, HTML, CSS, and
-                                                    JavaScript.
-                                                </p>{" "}
-                                                <h6 className="heading-subtitle tech-stack">
-                                                    Teaching
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Javascript
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Css3
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    HTML5
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Computer Science
-                                                </h6>
-                                            </div>
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Algebra Teacher
-                                                    <small className="resume-role">
-                                                        Manitou Spring School
-                                                        District | 2014 - 2016
-                                                    </small>
-                                                </h4>
-                                                <p>
-                                                    Designed and implemented the
-                                                    math department’s curriculum
-                                                    centered around technology.
-                                                </p>{" "}
-                                                <h6 className="heading-subtitle tech-stack">
-                                                    Teaching
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Mathematics
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Swift
-                                                    <span className="hidden-sm-down">
-                                                        {" "}
-                                                        •
-                                                    </span>{" "}
-                                                    Computer Science
-                                                </h6>
-                                            </div>
+                                            {workExperience.map(experience => {
+                                                return (
+                                                    <div className="resume-position">
+                                                        <h4>
+                                                            {experience.title}
+                                                            <small className="resume-role">
+                                                                {experience.company} | {experience.date.from} -
+                                                                {experience.date.to}
+                                                            </small>
+                                                        </h4>
+                                                        <p>{experience.description}</p>
+                                                        <h6 className="heading-subtitle tech-stack">
+                                                            {experience.skillsList.map((skill, i) => {
+                                                                return (
+                                                                    <span>
+                                                                        {skill}{i === experience.skillsList.length-1 ? "" : <span className="hidden-sm-down">{" "}•{" "}</span>}
+                                                                    </span>
+                                                                )
+                                                            })}
+                                                        </h6>
+                                                    </div>
+                                                )
+                                            })}   
                                         </div>
                                     </div>
                                 </div>

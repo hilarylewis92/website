@@ -12,7 +12,7 @@ class Sidebar extends Component {
                     <a className="menu-link">
                         <h3 className="menu-title">Resume</h3>
                         <svg
-                            class="menu__icon"
+                            className="menu__icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="120"
                             height="15"

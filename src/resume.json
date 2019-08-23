@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Lead Software Engineer",
+        "company": "The Tiber Group",
+        "date": {
+            "from": "Dec 2017",
+            "to": "Feb 2019"
+        },
+        "description": "Responsible for planning, building, testing, and delivering a custom CMS web application marketed towards media buying solutions. Build highly performant, scalable software systems. Lead a team of developers by managing individual project priorities, deadlines, and deliverables. Discuss, research, test, and implement UX/UI best practices.",
+        "skillsList": [
+            "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Frontend Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker/Jenkins"
+        ]
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "The Tiber Group",
+        "date": {
+            "from": "June 2017",
+            "to": "Dec 2017"
+        },
+        "description": "Built numerous client facing systems with a wide range of technologies. Communicated closely with designers and product owners on how to streamline internal workflow between departments. Collaborated with Chief Technology Officer on defining best practices and technologies to use within the development team.",
+        "skillsList": [
+            "JavaScript", "Angular4/React/Redux", "Wordpress/PHP", "D3/Animations", "SASS/CSS3", "NodeJS", "Agile Methodologies"
+        ]
+    },
+    {
+        "title": "Frontend Engineer",
+        "company": "Freelance",
+        "date": {
+            "from": "Feb 2017",
+            "to": "June 2017"
+        },
+        "description": "Utilized test driven development to lead a group of developers in the creation of a scheduling application. In charge of cross browser testing, fixing bugs, and styling multiple web applications.",
+        "skillsList": [
+            "TDD", "React/Redux", "JavaScript", "Wordpress", "Accessibility", "Sass/CSS3/Bootstrap"
+        ]
+    },
+    {
+        "title": "Lead Instructor",
+        "company": "Girls Who Code",
+        "date": {
+            "from": "Feb 2017",
+            "to": "June 2017"
+        },
+        "description": "Taught high school girls the fundamentals of computer science, HTML, CSS, and JavaScript.",
+        "skillsList": [
+            "Teaching", "JavaScript", "CSS3", "HTML5", "Computer Science"
+        ]
+    },
+    {
+        "title": "Algebra Teacher",
+        "company": "Manitou Springs School District",
+        "date": {
+            "from": "July 2014",
+            "to": "June 2016"
+        },
+        "description": "Designed and implemented the math department’s curriculum centered around technology.",
+        "skillsList": [
+            "Teaching", "Mathematics", "Swift", "Computer Science"
+        ]
+    }
+]
