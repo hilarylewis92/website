@@ -1,6 +1,18 @@
 [
     {
-        "title": "Lead Software Engineer",
+        "title": "Front End Engineer",
+        "company": "Bluprint",
+        "date": {
+            "from": "March 2019",
+            "to": "Current"
+        },
+        "description": "Work primarily on ecommerce side of platform",
+        "skillsList": [
+            "React/Redux", "Unit/Functional Testing", "Javascript", "UX Research", "Payment Integrations"
+        ]
+    },
+    {
+        "title": "Software Engineer, Team Lead",
         "company": "The Tiber Group",
         "date": {
             "from": "Dec 2017",
@@ -8,11 +20,11 @@
         },
         "description": "Responsible for planning, building, testing, and delivering a custom CMS web application marketed towards media buying solutions. Build highly performant, scalable software systems. Lead a team of developers by managing individual project priorities, deadlines, and deliverables. Discuss, research, test, and implement UX/UI best practices.",
         "skillsList": [
-            "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Frontend Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker/Jenkins"
+            "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Frontend Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker"
         ]
     },
     {
-        "title": "Frontend Engineer",
+        "title": "Software Engineer",
         "company": "The Tiber Group",
         "date": {
             "from": "June 2017",
@@ -24,7 +36,7 @@
         ]
     },
     {
-        "title": "Frontend Engineer",
+        "title": "Front End Web Developer",
         "company": "Freelance",
         "date": {
             "from": "Feb 2017",
@@ -36,11 +48,11 @@
         ]
     },
     {
-        "title": "Lead Instructor",
+        "title": "Lead Campus Instructor",
         "company": "Girls Who Code",
         "date": {
-            "from": "Feb 2017",
-            "to": "June 2017"
+            "from": "May 2017",
+            "to": "August 2017"
         },
         "description": "Taught high school girls the fundamentals of computer science, HTML, CSS, and JavaScript.",
         "skillsList": [

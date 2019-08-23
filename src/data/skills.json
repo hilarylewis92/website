@@ -1,0 +1,14 @@
+[
+    {
+        "category" : "PROFESSIONAL SKILL SET",
+        "skillsList": ["HTML5", "CSS3/SASS/Styled Components", "JavaScript/TypeScript", "React/Redux", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git"]
+    },
+    {
+        "category" : "WORKING KNOWLEDGE",
+        "skillsList": ["Angular", "Graphql/Apollo", "MongoDB", "NoSQL/PostgreSQL", "React Native", "PHP", "Websockets", "Docker", "Python", "Golang"]
+    },
+    {
+        "category" : "TOOLS",
+        "skillsList": ["Jira", "Confluence", "Jenkins", "VSCode", "Stack Overflow", "Sketch", "Slack", "Google"]
+    }
+]

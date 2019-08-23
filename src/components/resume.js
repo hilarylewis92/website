@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import "../styles/Resume.css";
 import "../styles/Grids.css";
-const workExperience = require("../resume.json");
+const workExperience = require("../data/experience.json");
+const contactInfo = require("../data/contact.json");
+const educationInfo = require("../data/education.json");
+const skills = require("../data/skills.json");
 
 class Resume extends Component {
     render() {
@@ -16,36 +19,14 @@ class Resume extends Component {
                                         Hilary Lewis
                                     </h1>
                                     <h6 className="heading-subtitle">
-                                        <a href="mailto:hilarylewis92@gmail.com">
-                                            hilarylewis92@gmail.com
-                                        </a>{" "}
-                                        <span className="hidden-sm-down">
-                                            {" "}
-                                            •
-                                        </span>{" "}
-                                        <a href="tel:3039470034">
-                                            303 947 0034
-                                        </a>{" "}
-                                        <span className="hidden-sm-down">
-                                            {" "}
-                                            •
-                                        </span>{" "}
-                                        <a
-                                            href="https://github.com/hilarylewis92"
-                                            target="_blank"
-                                        >
-                                            GitHub
-                                        </a>{" "}
-                                        <span className="hidden-sm-down">
-                                            {" "}
-                                            •
-                                        </span>{" "}
-                                        <a
-                                            href="https://www.linkedin.com/in/hilarylewis92/"
-                                            target="_blank"
-                                        >
-                                            LinkedIn
-                                        </a>{" "}
+                                        {contactInfo.map((contactItem, i) => {
+                                            return (
+                                                <span>
+                                                    <a href={contactItem.link}>{contactItem.title}</a>
+                                                    {i === contactInfo.length-1 ? "" : <span className="hidden-sm-down">{" "}•{" "}</span>}
+                                                </span>
+                                            )
+                                        })}
                                     </h6>
                                 </div>
                                 <div className="row">
@@ -111,26 +92,18 @@ class Resume extends Component {
                                     </div>
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-category">
-                                            <div className="resume-position">
-                                                <h4>
-                                                    B.S Mathematics | Secondary
-                                                    Math Education Concentration
-                                                    | 3.75
-                                                    <small className="resume-role">
-                                                        Baylor University
-                                                    </small>
-                                                </h4>
-                                            </div>
-                                            <div className="resume-position">
-                                                <h4>
-                                                    Frontend Engineering
-                                                    <small className="resume-role">
-                                                        Turing School of
-                                                        software and design
-                                                    </small>
-                                                </h4>
-                                                <p />
-                                            </div>
+                                            {educationInfo.map((educationItem, i) => {
+                                                return (
+                                                    <div className="resume-position">
+                                                        <h4>
+                                                            {educationItem.title}
+                                                            <small className="resume-role">
+                                                                {educationItem.subTitle}
+                                                            </small>
+                                                        </h4>
+                                                    </div>
+                                                )
+                                            })}
                                         </div>
                                     </div>
                                 </div>
@@ -143,66 +116,16 @@ class Resume extends Component {
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-position">
                                             <div className="row">
-                                                <div className="col-xs-12 col-lg-4">
-                                                    <h4>
-                                                        PROFESSIONAL SKILL SET
-                                                    </h4>
-                                                    <ul className="resume-list">
-                                                        <li>HTML5</li>
-                                                        <li>
-                                                            CSS3/SASS/Styled
-                                                            Components
-                                                        </li>
-                                                        <li>
-                                                            JavaScript/TypeScript
-                                                        </li>
-                                                        <li>React/Redux</li>
-                                                        <li>NodeJS</li>
-                                                        <li>WordPress</li>
-                                                        <li>
-                                                            Microservice
-                                                            Architecture
-                                                        </li>
-                                                        <li>REST APIs</li>
-                                                        <li>Animations/D3</li>
-                                                        <li>
-                                                            Project Management
-                                                        </li>
-                                                        <li>UX/UI</li>
-                                                        <li>Git</li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-xs-12 col-lg-4">
-                                                    <h4>WORKING KNOWLEDGE</h4>
-                                                    <ul className="resume-list">
-                                                        <li>Angular</li>
-                                                        <li>Graphql/Apollo</li>
-                                                        <li>MongoDB</li>
-                                                        <li>
-                                                            NoSQL/PostgreSQL
-                                                        </li>
-                                                        <li>PHP</li>
-                                                        <li>Websockets</li>
-                                                        <li>
-                                                            NoSQL/PostgreSQL
-                                                        </li>
-                                                        <li>Docker/Jenkins</li>
-                                                        <li>Python</li>
-                                                        <li>Golang</li>
-                                                        <li>User Testing</li>
-                                                        <li>TDD</li>
-                                                    </ul>
-                                                </div>
-                                                <div className="col-xs-12 col-lg-4">
-                                                    <h4>TOOLS</h4>
-                                                    <ul className="resume-list">
-                                                        <li>Jira</li>
-                                                        <li>VSCode</li>
-                                                        <li>Stack Overflow</li>
-                                                        <li>Sketch</li>
-                                                        <li>Slack</li>
-                                                    </ul>
-                                                </div>
+                                                {skills.map(skill => {
+                                                    return (
+                                                        <div className="col-xs-12 col-lg-4">
+                                                            <h4>{skill.category}</h4>
+                                                            <ul className="resume-list">
+                                                                {skill.skillsList.map(item => <li>{item}</li>)}
+                                                            </ul>
+                                                        </div>
+                                                    )
+                                                })}
                                             </div>
                                         </div>
                                     </div>
