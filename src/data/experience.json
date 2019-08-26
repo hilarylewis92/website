@@ -6,9 +6,9 @@
             "from": "March 2019",
             "to": "Current"
         },
-        "description": "Work primarily on e-commerce side of the web application. Responsible for maintenance and enhancement features associated with payment. Integrate analytics tests to measure user's integration within the platform.",
+        "description": "Responsible for maintenance and enhancement features primarily on e-commerce side of the web application. Integrate analytics tests to measure user's interaction within the platform. Incorporate A/B testing to measure efficiency with building new features.",
         "skillsList": [
-            "React/Redux", "Unit/Functional Testing", "Javascript", "UX Research", "Payment Integrations", "jQuery", "analytics"
+            "React/Redux", "Unit/Functional Testing", "Javascript/jQuery", "e-commerce", "analytics", "A/B testing"
         ]
     },
     {
