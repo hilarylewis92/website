@@ -38,7 +38,7 @@ class Resume extends Component {
                                     <div className="col-xs-12 col-lg-9">
                                         <div className="resume-category">
                                             <p className="resume-intro">
-                                                As a creative Frontend Engineer,
+                                                As a creative Front End Engineer,
                                                 I value using both my left and
                                                 right brain. My technical skills
                                                 help me solve challenging

@@ -1,14 +1,14 @@
 [
     {
         "title": "Front End Engineer",
-        "company": "Bluprint",
+        "company": "Bluprint (formerly Craftsy)",
         "date": {
             "from": "March 2019",
             "to": "Current"
         },
-        "description": "Work primarily on ecommerce side of platform",
+        "description": "Work primarily on e-commerce side of the web application. Responsible for maintenance and enhancement features associated with payment. Integrate analytics tests to measure user's integration within the platform.",
         "skillsList": [
-            "React/Redux", "Unit/Functional Testing", "Javascript", "UX Research", "Payment Integrations"
+            "React/Redux", "Unit/Functional Testing", "Javascript", "UX Research", "Payment Integrations", "jQuery", "analytics"
         ]
     },
     {
@@ -20,7 +20,7 @@
         },
         "description": "Responsible for planning, building, testing, and delivering a custom CMS web application marketed towards media buying solutions. Build highly performant, scalable software systems. Lead a team of developers by managing individual project priorities, deadlines, and deliverables. Discuss, research, test, and implement UX/UI best practices.",
         "skillsList": [
-            "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Frontend Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker"
+            "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Front End Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker"
         ]
     },
     {
