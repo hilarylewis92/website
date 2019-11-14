@@ -1,7 +1,7 @@
 [
     {
         "category" : "PROFESSIONAL SKILL SET",
-        "skillsList": ["React/Redux", "JavaScript/TypeScript/jQuery", "HTML5", "CSS3/SASS/Styled Components", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git"]
+        "skillsList": ["React/Redux", "JavaScript/TypeScript/jQuery", "HTML5", "CSS3/SASS/LESS/Styled Components", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git", "Handlebars", "Mentoring"]
     },
     {
         "category" : "WORKING KNOWLEDGE",

@@ -8,17 +8,17 @@
         },
         "description": "Responsible for maintenance and enhancement features primarily on e-commerce side of the web application. Integrate analytics tests to measure user's interaction within the platform. Incorporate A/B testing to measure efficiency with building new features.",
         "skillsList": [
-            "React/Redux", "Unit/Functional Testing", "Javascript/jQuery", "e-commerce", "analytics", "A/B testing"
+            "React/Redux", "Javascript/jQuery", "SASS/LESS", "Handlebars", "Unit/Functional Testing", "e-commerce", "analytics", "A/B testing", "Agile"
         ]
     },
     {
         "title": "Software Engineer, Team Lead",
         "company": "The Tiber Group",
         "date": {
-            "from": "Dec 2017",
-            "to": "Feb 2019"
+            "from": "December 2017",
+            "to": "March 2019"
         },
-        "description": "Responsible for planning, building, testing, and delivering a custom CMS web application marketed towards media buying solutions. Build highly performant, scalable software systems. Lead a team of developers by managing individual project priorities, deadlines, and deliverables. Discuss, research, test, and implement UX/UI best practices.",
+        "description": "Responsible for planning, building, testing, and delivering custom CMS web application marketed towards media buying solutions. Built highly performant, scalable software systems. Led a team of engineers by managing individual project priorities, deadlines, and deliverables. Discussed, researched, tested, and implemented UX/UI best practices.",
         "skillsList": [
             "React/Redux", "NextJs", "TypeScript/Javascript", "Styled Components/MaterialUI", "Microservice/Micro Front End Architecture", "Graphql/Apollo", "Project Management", "MongoDb", "UX/UI", "Docker"
         ]
@@ -27,8 +27,8 @@
         "title": "Software Engineer",
         "company": "The Tiber Group",
         "date": {
-            "from": "June 2017",
-            "to": "Dec 2017"
+            "from": "May 2017",
+            "to": "December 2017"
         },
         "description": "Built numerous client facing systems with a wide range of technologies. Communicated closely with designers and product owners on how to streamline internal workflow between departments. Collaborated with Chief Technology Officer on defining best practices and technologies to use within the development team.",
         "skillsList": [
@@ -39,7 +39,7 @@
         "title": "Front End Web Developer",
         "company": "Freelance",
         "date": {
-            "from": "Feb 2017",
+            "from": "January 2017",
             "to": "June 2017"
         },
         "description": "Utilized test driven development to lead a group of developers in the creation of a scheduling application. In charge of cross browser testing, fixing bugs, and styling multiple web applications.",
