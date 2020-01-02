@@ -8,7 +8,7 @@
         },
         "description": "Responsible for maintenance and enhancement features primarily on e-commerce side of the web application. Integrate analytics tests to measure user's interaction within the platform. Incorporate A/B testing to measure efficiency with building new features.",
         "skillsList": [
-            "React/Redux", "Javascript/jQuery", "SASS/LESS", "Handlebars", "Unit/Functional Testing", "e-commerce", "analytics", "A/B testing", "Agile"
+            "React/Redux", "Javascript/jQuery", "SASS/LESS", "Handlebars", "Unit/Functional Testing", "e-commerce", "analytics", "A/B testing", "Agile", "Jenkins"
         ]
     },
     {
