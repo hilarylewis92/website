@@ -47,6 +47,7 @@ export const Resume = () => {
                                             and unique user interfaces.
                                         </p>
                                     </div>
+                                    <div className="spacer" />
                                 </div>
                             </div>
                             <div className="row">
@@ -81,6 +82,7 @@ export const Resume = () => {
                                             )
                                         })}   
                                     </div>
+                                    <div className="spacer" />
                                 </div>
                             </div>
                             <div className="row">
@@ -104,6 +106,7 @@ export const Resume = () => {
                                             )
                                         })}
                                     </div>
+                                    <div className="spacer" />
                                 </div>
                             </div>
                             <div className="row">

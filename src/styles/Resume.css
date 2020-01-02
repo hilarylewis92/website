@@ -14,27 +14,15 @@
     display: block;
     text-align: center;
     padding: 50px 0;
-    padding: 3.125rem 0;
 }
 
 .resume-heading {
-    padding: 5px 0;
-    padding: 0.3125rem 0;
+    padding-bottom: 1.09375rem;
 }
 
-@media (min-width: 544px) {
-    .resume-category {
-        margin: 0 0 50px;
-    }
-}
-
-.resume-category {
+.spacer {
     border-bottom: 1px solid #ccc;
-    margin: 10px 0 50px;
-}
-
-.resume-intro {
-    margin: 0 0 60px;
+    margin: 50px 0;
 }
 
 .resume-role {
@@ -58,15 +46,12 @@ small {
     line-height: 1.3125rem;
 }
 
-.resume-position {
-}
-
 @media (min-width: 993px) {
     .resume-list {
         padding: 0 0 0 10px;
-        display: inline-block;
     }
 }
+
 .resume-list {
     list-style-type: none;
 }
@@ -86,10 +71,31 @@ small {
     position: relative;
     left: -10px;
     content: "\2022";
-    font-size: 18px;
-    font-size: 1.125rem;
+    font-size: 15px;
+}
+
+
+@media (max-width: 992px) {
+    .resume-list {
+        display: flex;
+        flex-flow: wrap;
+        padding-left: 0;
+    }
+
+    .resume-list li:before {
+        left: -5px;
+        font-size: 12px;
+    }
+
+    li {
+        margin-right: 10px
+    }
 }
 
 .tech-stack {
     margin: 0 0 60px;
+}
+
+.resume-intro {
+    margin: 0;
 }

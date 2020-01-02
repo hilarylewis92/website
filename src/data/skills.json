@@ -1,11 +1,11 @@
 [
     {
         "category" : "PROFESSIONAL SKILL SET",
-        "skillsList": ["React/Redux", "JavaScript/TypeScript/jQuery", "HTML5", "CSS3/SASS/LESS/Styled Components", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git", "Handlebars", "Mentoring"]
+        "skillsList": ["React/Redux", "JavaScript/TypeScript/jQuery", "HTML5", "CSS3/SASS/LESS/Styled Components", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git", "Handlebars", "Mentoring", "MaterialUI"]
     },
     {
         "category" : "WORKING KNOWLEDGE",
-        "skillsList": ["Angular", "Graphql/Apollo", "MongoDB", "NoSQL/PostgreSQL", "React Native", "PHP", "Websockets", "Docker", "Python", "Golang"]
+        "skillsList": ["Angular", "Graphql/Apollo", "MongoDB", "NoSQL/PostgreSQL", "React Native", "PHP", "Websockets", "Docker", "Python", "Golang", "Java"]
     },
     {
         "category" : "TOOLS",
