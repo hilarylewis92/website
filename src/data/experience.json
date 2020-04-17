@@ -6,7 +6,7 @@
             "from": "March 2019",
             "to": "Current"
         },
-        "description": "Primary owner for building new features and maintaining React-based stack on the e-commerce side of the web application. Build internal tools to support the content side of the product. Main user flow build outs include search, shop galleries, checkout, pricing, coupons, payments, subscriptions, account management, and dynamic site messaging. Integrate analytics to track user's interaction within the platform. Incorporate A/B testing to measure new feature performance.",
+        "description": "Primary owner of building new features and maintaining the stack on the e-commerce side of the web application. Build internal tools to support the content side of the product. User flow build-outs including search, shop galleries, checkout, pricing, coupons, payments, subscriptions, account management, and dynamic site messaging. Integrate analytics to track user's interaction within the platform. Incorporate A/B testing to measure new feature performance.",
         "skillsList": [
             "React/Redux", "Javascript/jQuery", "SASS/LESS", "Handlebars", "Unit/Functional Testing", "e-commerce", "analytics", "A/B testing", "Agile", "Jenkins"
         ]
