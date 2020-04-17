@@ -5,6 +5,7 @@ const workExperience = require("../data/experience.json");
 const contactInfo = require("../data/contact.json");
 const educationInfo = require("../data/education.json");
 const skills = require("../data/skills.json");
+const communityInfo = require("../data/community.json");
 
 export const Resume = () => {
     return (
@@ -88,6 +89,30 @@ export const Resume = () => {
                             <div className="row">
                                 <div className="col-xs-12 col-lg-3">
                                     <h2 className="resume-heading">
+                                        Technical Expertise
+                                    </h2>
+                                </div>
+                                <div className="col-xs-12 col-lg-9">
+                                    <div className="resume-position">
+                                        <div className="row">
+                                            {skills.map(skill => {
+                                                return (
+                                                    <div className="col-xs-12 col-lg-4">
+                                                        <h4>{skill.category}</h4>
+                                                        <ul className="resume-list">
+                                                            {skill.skillsList.map(item => <li>{item}</li>)}
+                                                        </ul>
+                                                    </div>
+                                                )
+                                            })}
+                                        </div>
+                                        <div className="spacer" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-xs-12 col-lg-3">
+                                    <h2 className="resume-heading">
                                         Education
                                     </h2>
                                 </div>
@@ -112,23 +137,23 @@ export const Resume = () => {
                             <div className="row">
                                 <div className="col-xs-12 col-lg-3">
                                     <h2 className="resume-heading">
-                                        Technical Expertise
+                                        Community Work
                                     </h2>
                                 </div>
                                 <div className="col-xs-12 col-lg-9">
-                                    <div className="resume-position">
-                                        <div className="row">
-                                            {skills.map(skill => {
-                                                return (
-                                                    <div className="col-xs-12 col-lg-4">
-                                                        <h4>{skill.category}</h4>
-                                                        <ul className="resume-list">
-                                                            {skill.skillsList.map(item => <li>{item}</li>)}
-                                                        </ul>
-                                                    </div>
-                                                )
-                                            })}
-                                        </div>
+                                    <div className="resume-category">
+                                        {communityInfo.map((communityItem, i) => {
+                                            return (
+                                                <div className="resume-position">
+                                                    <h4>
+                                                        {communityItem.title}
+                                                        <small className="resume-role">
+                                                            {communityItem.subTitle} | {communityItem.dates}
+                                                        </small>
+                                                    </h4>
+                                                </div>
+                                            )
+                                        })}
                                     </div>
                                 </div>
                             </div>

@@ -36,7 +36,7 @@ export const Sidebar = () => {
                         />
                     </svg>
                     <h6 className="menu-subtitle subtitle">
-                        View my experience
+                        My experience
                     </h6>
                 </a>
                 {/* <a className="menu-link">
