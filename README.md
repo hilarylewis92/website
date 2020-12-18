@@ -1,3 +1,8 @@
+## Set up
+
+`npm install`
+`npm start`
+
 ## Deployment
 
 `yarn run build`

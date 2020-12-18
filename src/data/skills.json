@@ -1,14 +1,52 @@
 [
-    {
-        "category" : "PROFESSIONAL SKILL SET",
-        "skillsList": ["React/Redux", "JavaScript/TypeScript/jQuery", "HTML5", "CSS3/SASS/LESS/Styled Components", "NodeJS", "WordPress", "Microservice/Micro Front End Architecture","REST APIs", "Animations/D3", "Project Management", "UX/UI", "Git", "Handlebars", "Mentoring", "MaterialUI", "NextJS"]
-    },
-    {
-        "category" : "WORKING KNOWLEDGE",
-        "skillsList": ["Angular", "Graphql/Apollo", "MongoDB", "NoSQL/PostgreSQL", "React Native", "PHP", "Websockets", "Docker", "Python", "Golang", "Java"]
-    },
-    {
-        "category" : "TOOLS",
-        "skillsList": ["Jira", "Confluence", "Jenkins", "VSCode", "Stack Overflow", "Sketch", "Slack", "Google"]
-    }
+  {
+    "category": "PROFESSIONAL SKILL SET",
+    "skillsList": [
+      "React/Redux",
+      "React Native",
+      "JavaScript/TypeScript/jQuery",
+      "HTML5",
+      "CSS3/SASS/LESS/Styled Components",
+      "Expo",
+      "NodeJS",
+      "React Query",
+      "Microservice/Micro Front End Architecture",
+      "REST APIs",
+      "Animations/D3",
+      "Project Management",
+      "UX/UI",
+      "Git",
+      "Mentoring",
+      "MaterialUI",
+      "Handlebars"
+    ]
+  },
+  {
+    "category": "WORKING KNOWLEDGE",
+    "skillsList": [
+      "Angular",
+      "Graphql/Apollo",
+      "MongoDB",
+      "NoSQL/PostgreSQL",
+      "React Native",
+      "PHP",
+      "Websockets",
+      "Docker",
+      "Python",
+      "Golang",
+      "Java"
+    ]
+  },
+  {
+    "category": "TOOLS",
+    "skillsList": [
+      "Jira",
+      "Confluence",
+      "Jenkins",
+      "VSCode",
+      "Stack Overflow",
+      "Sketch",
+      "Google"
+    ]
+  }
 ]
