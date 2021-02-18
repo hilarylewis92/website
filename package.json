@@ -3,13 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "anchor-link": "^3.0.3",
+    "classnames": "^2.2.6",
     "handlebars": "^4.0.14",
     "lodash": "^4.17.13",
     "lodash.template": "^4.5.0",
     "react": "^16.7.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-dom": "^16.7.0",
     "react-icons": "^4.2.0",
-    "react-scripts": "2.1.2"
+    "react-scripts": "2.1.2",
+    "react-scroll": "^1.8.1"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -84,3 +84,8 @@
   left: 1rem;
   font-weight: 900;
 }
+
+.active > .menu-title,
+.active > .menu-subtitle {
+  color: #c33;
+}

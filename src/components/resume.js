@@ -3,7 +3,6 @@ import "../styles/Resume.css";
 import "../styles/Grids.css";
 const workExperience = require("../data/experience.json");
 const educationInfo = require("../data/education.json");
-const skills = require("../data/skills.json");
 const communityInfo = require("../data/community.json");
 
 export const Resume = () => {
@@ -13,11 +12,6 @@ export const Resume = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-xs-12">
-              <div className="row">
-                <div className="col-lg-12">
-                  <h1 className="resume-header">Resume | My Experiences</h1>
-                </div>
-              </div>
               <div className="row">
                 <div className="col-xs-12 col-lg-3">
                   <h4 className="resume-heading">Overview</h4>
@@ -35,9 +29,14 @@ export const Resume = () => {
                   <div className="spacer" />
                 </div>
               </div>
+              <div className="row" id="resume">
+                <div className="col-lg-12">
+                  <h1 className="resume-header">My Experiences</h1>
+                </div>
+              </div>
               <div className="row">
                 <div className="col-xs-12 col-lg-3">
-                  <h3 className="resume-heading">Work Experience</h3>
+                  <h3 className="resume-heading">Work</h3>
                 </div>
                 <div className="col-xs-12 col-lg-9">
                   <div className="resume-category">

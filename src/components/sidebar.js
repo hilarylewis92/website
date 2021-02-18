@@ -3,6 +3,8 @@ import "../styles/Sidebar.css";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 
 export const Sidebar = () => {
+  const [active, setActive] = React.useState("portfolio");
+
   return (
     <div className="menu">
       <div className="icon-wrapper">
@@ -17,19 +19,31 @@ export const Sidebar = () => {
         </a>
       </div>
       <div className="menu-content">
-        <a className="menu-link">
+        <a
+          onClick={() => setActive("portfolio")}
+          href="#portfolio"
+          className={`menu-link ${active === "portfolio" && "active"}`}
+        >
           <h3 className="menu-title">Portfolio</h3>
           <h6 className="menu-subtitle">Things I've built</h6>
         </a>
         <hr />
 
-        <a className="menu-link">
+        <a
+          onClick={() => setActive("resume")}
+          href="#resume"
+          className={`menu-link ${active === "resume" && "active"}`}
+        >
           <h3 className="menu-title">Resume</h3>
           <h6 className="menu-subtitle">My Experiences</h6>
         </a>
         <hr />
 
-        <a className="menu-link">
+        <a
+          onClick={() => setActive("contact")}
+          href="#contact"
+          className={`menu-link ${active === "contact" && "active"}`}
+        >
           <h3 className="menu-title">Contact</h3>
           <h6 className="menu-subtitle">Get my attention</h6>
         </a>
