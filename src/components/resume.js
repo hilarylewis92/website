@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../styles/Resume.css";
 import "../styles/Grids.css";
 const workExperience = require("../data/experience.json");
@@ -75,7 +75,7 @@ export const Resume = () => {
                   <div className="spacer" />
                 </div>
               </div>
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-xs-12 col-lg-3">
                   <h3 className="resume-heading">Technical Expertise</h3>
                 </div>
@@ -98,7 +98,7 @@ export const Resume = () => {
                     <div className="spacer" />
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="row">
                 <div className="col-xs-12 col-lg-3">
                   <h3 className="resume-heading">Education</h3>

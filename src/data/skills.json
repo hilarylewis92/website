@@ -10,6 +10,8 @@
       "Expo",
       "NodeJS",
       "React Query",
+      "Graphql/Apollo",
+      "MaterialUI",
       "Microservice/Micro Front End Architecture",
       "REST APIs",
       "Animations/D3",
@@ -17,7 +19,6 @@
       "UX/UI",
       "Git",
       "Mentoring",
-      "MaterialUI",
       "Handlebars"
     ]
   },
@@ -25,7 +26,6 @@
     "category": "WORKING KNOWLEDGE",
     "skillsList": [
       "Angular",
-      "Graphql/Apollo",
       "MongoDB",
       "NoSQL/PostgreSQL",
       "React Native",
