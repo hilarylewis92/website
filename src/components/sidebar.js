@@ -34,6 +34,7 @@ export const Sidebar = () => {
           <h6 className="menu-subtitle">Get my attention</h6>
         </a>
       </div>
+      <h6 className="menu-name">Hilary Lewis</h6>
     </div>
   );
 };

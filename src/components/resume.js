@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../styles/Resume.css";
 import "../styles/Grids.css";
 const workExperience = require("../data/experience.json");
-const contactInfo = require("../data/contact.json");
 const educationInfo = require("../data/education.json");
 const skills = require("../data/skills.json");
 const communityInfo = require("../data/community.json");
