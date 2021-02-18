@@ -23,38 +23,50 @@
 .menu-content,
 .section-outcomes .section-background {
   position: absolute;
-  left: 50%;
+  left: 1rem;
   top: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: (-50%);
+  transform: translateY(-50%);
 }
 
 .menu-title,
 .menu-subtitle {
-  display: block;
   margin: 0;
   text-transform: uppercase;
   color: #000;
-  transition: 0.2s transform linear;
 }
 
 @media (min-width: 768px) {
   .menu-link {
     transform: translateY(0);
-    margin: 30px auto;
-    margin: 1.875rem auto;
   }
 }
 .menu-link {
   display: inline-block;
-  text-align: center;
   color: #333;
   width: 100%;
-  margin: 0 auto 30px;
-  margin: 0 auto 1.875rem;
-  transition: 0.5s transform linear;
-  cursor: default !important;
+  margin: 1rem 0;
+  transition: transform 500ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
+  cursor: pointer;
 }
 
 .menu-subtitle {
   margin-top: 0px;
+}
+
+.menu-link:hover {
+  transform: translateX(0.5rem);
+  cursor: pointer;
+}
+
+.icon {
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: transform 500ms cubic-bezier(0.1, 0.2, 0.3, 0.4);
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  margin: 0.5rem;
+  cursor: pointer;
 }
