@@ -37,3 +37,47 @@ export const Sidebar = () => {
     </div>
   );
 };
+
+// {
+//   "title": "Front End Web Developer",
+//   "company": "FleetCreature",
+//   "date": {
+//     "from": "January 2017",
+//     "to": "June 2017"
+//   },
+//   "description": "Utilized TDD to lead a group of developers in the creation of a scheduling application. In charge of cross browser testing, fixing bugs, and styling multiple web applications.",
+//   "skillsList": [
+//     "TDD",
+//     "React/Redux",
+//     "JavaScript",
+//     "Wordpress",
+//     "Accessibility",
+//     "Sass/CSS3/Bootstrap"
+//   ]
+// },
+// {
+//   "title": "Lead Campus Instructor",
+//   "company": "Girls Who Code",
+//   "date": {
+//     "from": "May 2017",
+//     "to": "August 2017"
+//   },
+//   "description": "Taught high school girls the fundamentals of computer science, HTML, CSS, and JavaScript.",
+//   "skillsList": [
+//     "Teaching",
+//     "JavaScript",
+//     "CSS3",
+//     "HTML5",
+//     "Computer Science"
+//   ]
+// },
+// {
+//   "title": "Algebra Teacher",
+//   "company": "Manitou Springs School District",
+//   "date": {
+//     "from": "July 2014",
+//     "to": "June 2016"
+//   },
+//   "description": "Designed and implemented the math department’s curriculum centered around technology.",
+//   "skillsList": ["Teaching", "Mathematics", "Swift", "Computer Science"]
+// }
