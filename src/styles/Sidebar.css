@@ -58,6 +58,10 @@
   transform: translateX(0.5rem);
   cursor: pointer;
 }
+.menu-link:hover > .menu-title,
+.menu-link:hover > .menu-subtitle {
+  color: #c33;
+}
 
 .icon {
   margin: 0.5rem;
